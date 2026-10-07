@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My CSS Playground</title>
+
+  <style>
+    /* =========================================================
+       CSS PLAYGROUND — Day 1
+       Every rule has the same shape:
+
+         selector {
+           property: value;
+         }
+
+       Your job: change the VALUES, save, and refresh the browser.
+       Look for the "TRY IT" comments.
+       ========================================================= */
+
+
+    /* ---------- 1. color  (the color of the TEXT) ---------- */
+    h1 {
+      color: rgb(20, 191, 148);
+      /* TRY IT: change navy to crimson, teal, or #ff6600 */
+    }
+
+
+    /* ---------- 2. background-color  (the color BEHIND things) ---------- */
+    body {
+      background-color: lightyellow;
+      /* TRY IT: try lavender, honeydew, or #1e1e2e (dark!) */
+      /* If you pick a dark background, change the text colors too. */
+    }
+
+
+    /* ---------- 3. font-size  (how BIG the text is) ---------- */
+    p {
+      font-size: 18px;
+      /* TRY IT: try 12px, then 30px. What happens to the paragraphs? */
+    }
+
+
+    /* ---------- 4. font-family  (the TYPEFACE) ---------- */
+    h2 {
+      font-family: Georgia, serif;
+      /* TRY IT: try Arial, sans-serif   or   "Courier New", monospace */
+    }
+
+
+    /* ---------- BONUS: a class selector (note the dot) ---------- */
+    .highlight {
+      background-color: gold;
+      /* TRY IT: add a second property here, like color: white; */
+    }
+
+
+    /* ---------- BONUS: an id selector (note the #) ---------- */
+    #footer-note {
+      color: gray;
+      /* TRY IT: add font-size: 12px; on the line below this one */
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>My First Styled Page</h1>
+
+  <h2>About Me</h2>
+  <p>Hi! My name is ______. I'm learning how to use CSS to change the way a web page looks.</p>
+  <p>My favorite place on campus is ______.</p>
+
+  <h2>What I Want to Learn</h2>
+  <p>By the end of this class, I want to build a website about <span class="highlight">something I care about</span>.</p>
+
+  <p id="footer-note">Made in CS 140.</p>
+
+  <!--
+    CHALLENGES (when you finish the TRY ITs):
+    1. Make the h2 headings a different color than the h1.
+    2. Add the "highlight" class to another word in a paragraph.
+    3. Change text-align to center on the h1:   text-align: center;
+    4. Break something on purpose: delete a semicolon. What happens?
+  -->
+
+</body>
+</html>
