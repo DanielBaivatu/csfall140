@@ -1,0 +1,168 @@
+/* General page styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaf6f2;
+    color: #203c35;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Homepage: repeating background image */
+.home-page {
+    background-image: url("images/tropical-pattern.jpg");
+    background-repeat: repeat;
+}
+
+/* Denarau: decorative background image on the right */
+.denarau-page {
+    background-image: url("images/palm-decoration.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/* Header shared by all pages */
+header {
+    background-color: #087e8b;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Navigation shared by all pages */
+nav {
+    background-color: #075b63;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    border-radius: 5px;
+    color: white;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #159a9c;
+    color: white;
+}
+
+nav a[aria-current="page"] {
+    background-color: #f4d58d;
+    color: #203c35;
+    font-weight: bold;
+}
+
+/* Main content shared by all pages */
+main {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding: 2rem;
+    width: 90%;
+}
+
+h2 {
+    color: #087e8b;
+}
+
+h3 {
+    color: #075b63;
+}
+
+/* Photo and caption styles */
+figure {
+    margin: 2rem auto;
+    max-width: 750px;
+    text-align: center;
+}
+
+.place-photo {
+    border: 3px solid #d4e9df;
+    border-radius: 8px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+    color: #536b63;
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Homepage list with custom image bullets */
+.tour-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tour-list li {
+    background-image: url("images/shell.png");
+    background-position: left 0.45rem;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    margin: 0.75rem 0;
+    padding-left: 2rem;
+}
+
+.tour-list a {
+    color: #087e8b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tour-list a:hover,
+.tour-list a:focus {
+    color: #075b63;
+    text-decoration: underline;
+}
+
+/* Footer shared by all pages */
+footer {
+    background-color: #075b63;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    nav {
+        align-items: stretch;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        margin: 1rem auto;
+        padding: 1rem;
+        width: 94%;
+    }
+}
