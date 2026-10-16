@@ -1,8 +1,7 @@
-main {
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 10px;
-    margin: 2rem auto;
-    max-width: 1000px;
-    padding: 2rem;
-    width: 90%;
+div{
+	background-color: powderblue;
+	border-color: green;
+	border-style: solid;
+	border-width: 2px;
+	padding: 2rem;
 }
