@@ -9,6 +9,16 @@ body {
     
 }
 
+h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
 header {
     color: white;
     background-color: #245b45;
