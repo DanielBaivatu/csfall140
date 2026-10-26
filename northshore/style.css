@@ -19,6 +19,21 @@ p {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+li {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
 header {
     color: white;
     background-color: #245b45;
