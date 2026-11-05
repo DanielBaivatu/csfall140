@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    color: black;
+    background-color: rgb(0, 191, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: thick solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    background-color: rgb(255, 127, 249);
+    color: rgb(40, 36, 31);
+    width: 200px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: antiquewhite;
+}
+
+p {
+    font-weight: 700;
+}
+
+.parent {
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+}
+
+main {
+    width: 75%;
+}
+
+.child {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.card {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    border: thin solid black;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3,
+.card p {
+    padding: 0 10px;
+}
+
+.footer-link {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, auto);
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.footer-link a {
+    display: block;
+    color: rgb(38, 39, 36);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
